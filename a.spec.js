@@ -1,1 +1,3 @@
-test("\r", () => expect(1).toMatchSnapshot());
+test("\r", () => {
+  expect(1).toMatchSnapshot()
+});
